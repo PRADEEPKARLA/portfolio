@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="pradeepimg.jpg" alt="PRADEEP" width="100px" height="100px" class="img-pradeep">
+          <h1 class="name">KARLA PRADEEP REDDY</h1>
+          <!-- <img src="pradeepimg.jpg" alt="PRADEEP" width="200px" height="200px" class="img-pradeep"> -->
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="project.html">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          
+        </div>
+      </header>
+   
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <p>If you'd like to get in touch, feel free to send me an email at <a href="mailto:pradeepkarlap1213@gmail.com">pradeepkarlap1213@gmail.com</a>.</p>
+          <form action="submit.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    
+     
+      <footer>
+        <div class="container">
+            <p>copyrights@2024 Pradeep</p>
+        </div>
+      </footer>
+</body>
+</html>
